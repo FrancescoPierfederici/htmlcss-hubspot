@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar1{
+    height: 100px;
+    line-height: 100px;
+    background-color:rgba(135, 206, 250, 0.164);
+    
+    
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+   
+}
+.navbar1 select{
+    border: transparent;
+    background-color: transparent;
+}
+
+.text-gray{
+    color:#33475b;
+
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+
+}
+
+/* .navbar1 .globephoto{
+    vertical-align: middle;
+    
+
+} */
+
+/* .background-world{
+    background-image: url(img/homepage_community_globe.svg);
+    background-color: gray;
+    height: 30px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    
+    
+
+} */
+.clearfix{
+    clear: both;
+    display: table;
+    content: "";
+
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+.firstbutton{
+    text-decoration: none;
+    color: inherit;
+    border:1px solid tomato;
+    color: tomato;
+    background-color:white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.secondbutton{
+    text-decoration: none;
+    color: inherit;
+    color: white;
+    background-color:tomato;
+    border-radius: 5px;
+    padding: 5px;
+}
+.right-margin{
+    margin-right: 15px;
+}
+header .navbar2{
+    height: 100px;
+    line-height: 100px;
+}
+.logo{
+    vertical-align: middle;
+}
+
+.navbar2 select{
+    border: transparent;
+    background-color: transparent;
+}
+
+.banner{
+    background-color: rgba(236, 25, 236, 0.082);
+    height: 500px;
+}
+.bannercol{
+    width: 50%;
+    z-index: 1;
+    position: relative;
+}
+.bannercol h1{
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.bannercol p{
+    margin-top:40px;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+}
+.thirdbutton{
+    background-color: tomato;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.bannercol span{
+    font-size: 13px;
+    display: block;
+    margin-top: 30px;
+}
+
+.relative{
+    position: relative;
+
+}
+
+.jumbotron{
+    position: absolute;
+    right:0;
+    bottom: -40;
+    height: 100%;
+    z-index: 0;
+    
+    
+}
+
+.lightbluebar{
+    width: 100%;
+    height: 80px;
+    background-color: lightskyblue;
+    position: absolute;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    bottom:-95px;
+}
+
+
+
+
