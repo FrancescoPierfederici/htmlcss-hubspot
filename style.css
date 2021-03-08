@@ -94,7 +94,8 @@ header .navbar2{
 }
 
 .banner{
-    background-color: rgba(236, 25, 236, 0.082);
+    
+    background-color:rgba(255, 182, 193, 0.185);
     height: 500px;
 }
 .bannercol{
@@ -133,9 +134,9 @@ header .navbar2{
 .jumbotron{
     position: absolute;
     right:0;
-    bottom: -40;
+    /* bottom: 35px; */
     height: 100%;
-    z-index: 0;
+    
     
     
 }
@@ -436,7 +437,7 @@ header .navbar2{
     width: 25%;
     color: white;
     margin-top: 30px;
-    margin-right: 2,5%;
+    margin-right: 0,5%;
     margin-bottom: 180px;
 }
 .column4 h3{
@@ -445,7 +446,7 @@ header .navbar2{
 
 .column4 li{
     list-style: none;
-    line-height: 50px;
+    line-height: 40px;
     color: rgb(221, 209, 209);
     
     
@@ -457,7 +458,7 @@ header .navbar2{
     color:#33475b; 
     
 }
-.column4 ul{
+.marginbot{
     margin-bottom: 20px;
     
 }
@@ -466,18 +467,38 @@ header .navbar2{
 }
 .listfoot{
     list-style: none;
-    color: white;
+    color: rgb(221, 209, 209);
+   
     
 }
 .listfoot li{
-    
-    margin: auto;
+    display: inline-block;
+    /* margin: auto; */
+    margin-right: 10px;
 
 }
 .listfoot ul{
-   
-    margin-right: 0;
+    margin-right: 0px;
 }
 .central-text{
     height: 100px;
+}
+.hr{
+    margin-top: -50px;
+
+
+}
+.privacy{
+    color: rgb(221, 209, 209);
+    
+}
+.privacy a{
+    margin-right: 40px;
+}
+.icon-resize{
+    height:20px;
+
+}
+.mgleft{
+    margin-left: 5px;
 }
