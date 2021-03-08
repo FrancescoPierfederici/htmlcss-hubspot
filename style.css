@@ -81,7 +81,7 @@
     margin-right: 15px;
 }
 header .navbar2{
-    height: 100px;
+    /* height: 100px; */
     line-height: 100px;
 }
 .logo{
@@ -96,7 +96,8 @@ header .navbar2{
 .banner{
     
     background-color:rgba(255, 182, 193, 0.185);
-    height: 500px;
+    /* height: 500px; */
+    padding-bottom:120px;
 }
 .bannercol{
     width: 50%;
@@ -152,8 +153,9 @@ header .navbar2{
 }
 
 .hero-bg{
-    height: 1700px;
+    /* height: 1700px; */
     background-color:rgba(135, 206, 250, 0.164);
+    padding-bottom: 100px;
  
 
 
@@ -181,11 +183,12 @@ header .navbar2{
 
 }
 .bg-white{
-    height: 300px;
+    /* height: 300px; */
     background-color: white;
     border-radius: 10px;
     border:3px solid rgba(60, 62, 63, 0.096);
     margin-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .margin-auto{
@@ -331,7 +334,8 @@ header .navbar2{
 }
 .bg-verdeacqua{
     background-color:rgb(68, 179, 179);
-    height: 1000px;
+    /* height: 1000px; */
+    padding-bottom: 100px;
 }
 .paragraph{
     margin-bottom: 90px;
@@ -380,8 +384,9 @@ header .navbar2{
     /* top: 50; */ 
 }
 .column2{
-    height: 200px;
+    /* height: 200px; */
     width: 40%;
+    padding-bottom: 30px;
 }
 .customers{
     line-height: 25px;
@@ -437,8 +442,9 @@ header .navbar2{
     width: 25%;
     color: white;
     margin-top: 30px;
-    margin-right: 0,5%;
+    
     margin-bottom: 180px;
+    padding-right: 80px;
 }
 .column4 h3{
     margin-bottom: 20px;
