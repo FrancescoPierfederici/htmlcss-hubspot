@@ -13,7 +13,7 @@
 
 }
 .container{
-    width: 80%;
+    width: 1200px;
     margin: auto;
    
 }
@@ -94,6 +94,8 @@ header .navbar2{
 }
 
 .banner{
+    background-image: url(img/jumbotron.png);
+    background-position: right;
     
     background-color:rgba(255, 182, 193, 0.185);
     /* height: 500px; */
@@ -149,7 +151,7 @@ header .navbar2{
     position: absolute;
     border-top: 3px solid;
     border-bottom: 3px solid;
-    bottom:-95px;
+    bottom:-140px;
 }
 
 .hero-bg{
@@ -239,10 +241,14 @@ header .navbar2{
     background-color: tomato;
     color: white;
     /* border-radius: 15px; */
-    
-    padding: 1px;
+    display: inline-block;
+    text-align: center;
     border-radius: 50%;
     margin-right: 10px;
+    height: 15%;
+    width: 15%;
+    line-height:15%;
+    padding:1px;
     
    
 }
@@ -258,6 +264,7 @@ header .navbar2{
     border:3px solid rgba(60, 62, 63, 0.096); 
     height: 750px; 
     margin-right:3%;
+    
    
    
 }
